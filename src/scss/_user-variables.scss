@@ -1,0 +1,18 @@
+//
+// user-variables.scss
+// Use this to overwrite Bootstrap and theme variables
+//
+
+// Example of a variable override to change theme's background color
+// Remove the "//" to comment it in and see it in action!
+// $body-bg: #12263F;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: #050A0F !default;
+$body-color: #fff  !default;
+
+$primary: #2C7BE5;
+$dark: #050A0F;

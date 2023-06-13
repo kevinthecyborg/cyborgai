@@ -1,0 +1,13 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+// Gradients
+.bg-gradient-dark-black {
+  background-image: linear-gradient(to bottom, #050A0F 0%, #000 100%);
+}
+
+.bg-gradient-black-dark {
+  background-image: linear-gradient(to bottom, #000 0%, #050A0F 100%);
+}
