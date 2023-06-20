@@ -11,3 +11,11 @@
 .bg-gradient-black-dark {
   background-image: linear-gradient(to bottom, #000 0%, #050A0F 100%);
 }
+
+.bg-pattern-stars-gradient {
+  background-image: url(../img/patterns/stars-1.svg), linear-gradient(to bottom, #050A0F 0%, transparent 100%);
+  background-repeat: repeat-y;
+}
+.bg-pattern-stars-big {
+  background-image: url(../img/patterns/stars-2.svg);
+}

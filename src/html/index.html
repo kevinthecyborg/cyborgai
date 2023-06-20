@@ -3,7 +3,8 @@
   <head>
     {{> partials/head title="Cyborg.AI"}}
   </head>
-  <body>
+  <body class="jarallax bg-pattern-stars-gradient" data-jarallax data-speed=".8">
+    <div class="jarallax bg-pattern-stars-big" data-jarallax data-speed=".6">
 
     <!-- MODALS -->
     {{> partials/modals}}
@@ -113,7 +114,7 @@
     </section>
 
     <!-- CYBOT + TOKEN SECTION -->
-    <section id="cybot" class="py-8 py-md-11 bg-gradient-dark-black">
+    <section id="cybot" class="py-8 py-md-11">
       <div class="container">
         <div class="row align-items-center justify-content-between mb-8 mb-md-11">
           <div class="col-12 col-md-6 order-md-2" data-aos="fade-left">
@@ -285,18 +286,13 @@
 
             <div class="w-md-150 w-lg-130 position-relative" data-aos="fade-left">
 
-              <!-- Shape -->
+              <!-- Shape
               <div class="shape shape-fluid-y shape-blur-4 text-gray-200">
                 {{> blurs/blur-4}}
-              </div>
+              </div> -->
 
               <!-- Image -->
-              <div class="img-skewed img-skewed-start">
-
-                <!-- Image -->
-                <img src="assets/img/screenshots/desktop/dashkit.jpg" class="screenshot img-fluid img-skewed-item" alt="...">
-
-              </div>
+              <img src="assets/img/token/cybot-graph.png" class="img-fluid" alt="...">
 
             </div>
 
@@ -306,7 +302,7 @@
     </section>
 
     <!-- NFT SECTION -->
-    <section id="nft" class="py-8 py-md-11 bg-gradient-black-dark">
+    <section id="nft" class="py-8 py-md-11">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -335,7 +331,7 @@
             <div class="mb-8 mb-md-0">
 
               <!-- Image -->
-              <img src="assets/img/screenshots/desktop/rental.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-end me-md-6 mb-6 mb-md-0">
+              <img src="assets/img/nft/nft-pre-release.png" alt="..." class="screenshot img-fluid mw-md-110 float-end me-md-6 mb-6 mb-md-0">
 
             </div>
 
@@ -419,13 +415,13 @@
     </section>
 
     <!-- COMMUNITY SECTION -->
-    <section id="community" class="py-8 py-md-11 bg-gradient-dark-black">
+    <section id="community" class="py-8 py-md-11">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
             <!-- Image -->
-            <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 mb-md-0">
+            <img src="assets/img/community/cyborg-community.png" alt="..." class="img-fluid mb-6 mb-md-0">
 
           </div>
           <div class="col-12 col-md-7 col-lg-6 order-md-1">
@@ -487,7 +483,7 @@
     </section>
 
     <!-- FAQ SECTION -->
-    <section id="faq" class="pt-8 bg-gradient-black-dark">
+    <section id="faq" class="pt-8">
       <div class="container pt-8 pt-md-11">
         <div class="row justify-content-center pb-6 pb-md-10">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -564,7 +560,7 @@
     </section>
 
     <!-- CTA SECTION -->
-    <section class="py-8 py-md-11 bg-gradient-dark-black">
+    <section class="py-8 py-md-11">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -601,6 +597,8 @@
       <div class="shape shape-bottom shape-fluid-x text-dark">
         {{> curves/curve-1}}
       </div>
+    </div>
+
     </div>
 
     <!-- FOOTER -->
